@@ -1,0 +1,17 @@
+<!-- Created by WooGLE v0.78 RC7 -->
+<addin spec-version="1.1">
+  <id />
+<name>WogPE</name>
+<type>level</type>
+<version>0.1</version>
+<description />
+<author />
+<levels>
+    <level>
+      <dir>WogPE</dir>
+<name text="WogPE" />
+<subtitle text="" />
+<ocd />
+</level>
+</levels>
+</addin>

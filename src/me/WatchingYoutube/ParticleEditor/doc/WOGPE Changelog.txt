@@ -1,0 +1,42 @@
+0.0.1.3 - State:
+
+	
+	-This is the first release to come with the installer which will allow for quick installation without needing to download 64 bit java manually
+	-The version is now set correctly in the config
+	-Removed The Moon Chapter
+
+0.0.1.2 - State: Unstable (CPU usage will probably be higher than normal and memory leaks are possible but not likely)
+
+	-Added a new clone button that allows you to clone existing effects and make them new effects as well as change their type. (Thanks ToxicGoo for the suggestion)
+	-Added a new config file so you won't have to pick the fx file every time.
+	-Added the ability to resize the window, everything scales accordingly now
+	-Added my goofans link to the about window and changed it slightly
+	-Changed Debug Messages to say the version and more information
+	-Required fields will now show red if they have not been filled
+	-The whole window now automatically update so no more needing to move the window in order to make things show/update
+	-The height that text is drawn at is now changed for each image to avoid overlapping text
+	-File filters are now defaulted to the filters instead of all files
+	-Adding new particles should work just fine now. (Delete function coming next update)
+	-Adding new axialsinoffsets should work now and not bug out. (Adding them to existing effects currently does not work so add them before you save a new effect)
+	-Fixed a minor bug where creating a new effect wouldn't change the name of the window correctly.
+	-Fixed a minor bug which would cause images to be drawn to the screen multiple times
+	-Fixed a bug where importing an image that already existed in the fx images would cause the file to get overwriten with nothing basically deleting it without removing it from your pc
+	-Removed The Moon Chapter
+
+
+0.0.1.1 - State: Unstable (Image corruptions possible)
+
+	-Added a new Image tab which lets you view which images you currently have open, you can view the id and path of each image and clicking on the value in the table will copy it to your clipboard
+	-Fixed a bug where certain pngs created in Gimp and other programs would cause the editor to crash for being invalid images. (Thanks ToxicGoo for finding this bug)
+	-Fixed a bug where the names of the new images in the fx images folder would not match what was put in the resources.xml (No idea how I missed this one lol)
+	-Fixed some other small bugs
+	-Made it so the rate feild will not be created (and will be removed) if its value is below the minimum value
+	-Optimized a small portion of code responsible for creating elements when you load up an effect.
+	-Disallowed maximizing of the main window
+	-Bundled this changelog with the project
+	-Removed The Moon Chapter
+
+0.0.1.0 - State: Very unstable
+
+	-First testing release of World of Goo Particle Editor
+	-Changed locations of decrypted files to the home directory to allow the editing of them when using a jar/exe file.

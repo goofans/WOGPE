@@ -1,0 +1,19 @@
+<scene backgroundcolor="0,0,0" maxx="1200" maxy="1600" minx="-500" miny="0">
+	<linearforcefield antigrav="true" dampeningfactor="0" force="0,-10" type="gravity" />
+<line anchor="1199.81,394.56" id="right" normal="-1,0" tag="detaching" />
+<line anchor="-500,300" id="left" normal="1,0" tag="detaching" />
+<line anchor="9.4,106.92" id="ground" normal="0,1" />
+<SceneLayer alpha="1" depth="0" image="IMAGE_SCENE_WOGPE_GROUNDTILE" rotation="0" scalex="1" scaley="1" tilex="true" tiley="false" x="12.4" y="48.36" />
+<SceneLayer alpha="1" depth="-80" image="IMAGE_SCENE_WOGPE_SKY_BLUE2A" rotation="0" scalex="6.635" scaley="7.94" tilex="false" tiley="false" x="346.84" y="851.75" />
+<label align="center" depth="10" font="FONT_BIGWHITE_52" id="EffectName" rotation="0" scale="1" text="TEXT_WOGPE_EFFECTNAME" x="-204.53" y="384.05" />
+<particles depth="-20" effect="fireArmBurn" pos="525.43,205.63" pretick="0" />
+<SceneLayer alpha="1" depth="-1" image="IMAGE_SCENE_WOGPE_BLACK32" rotation="0" scalex="7" scaley="7" tilex="false" tiley="false" x="-304" y="525" />
+<SceneLayer alpha="1" depth="-1" image="IMAGE_SCENE_WOGPE_WHITE32" name="" rotation="0" scalex="7" scaley="7" tilex="false" tiley="false" x="-80" y="525" />
+<particles depth="0" effect="fireArmBurn" pos="-304,525" pretick="0" />
+<particles depth="0" effect="fireArmBurn" pos="-80,525" pretick="0" />
+<SceneLayer alpha="1" depth="0" image="IMAGE_SCENE_WOGPE_FADER" rotation="0" scalex="7" scaley="7" tilex="false" tiley="false" x="144" y="525" />
+<particles depth="0" effect="fireArmBurn" pos="144,525" pretick="0" />
+<SceneLayer alpha="1" depth="-2" image="IMAGE_SCENE_WOGPE_SIGN_YIELD" rotation="0" scalex="0.547" scaley="0.547" tilex="false" tiley="false" x="-87.68" y="176.17" />
+<label align="center" depth="10" font="FONT_BIGWHITE_52" id="" rotation="0" scale="1" text="TEXT_WOGPE_FIRE" x="5.42" y="276.63" />
+<SceneLayer alpha="1" depth="-1" image="IMAGE_SCENE_WOGPE_WHITE32" name="" rotation="0" scalex="7" scaley="7" tilex="false" tiley="false" x="144" y="525" />
+</scene>
